@@ -11,8 +11,6 @@ app.use(cors({
     credentials: true // Allow cookies to be sent
 }));
 
-console.log('hello');
-
 const app = express()
 
 app.use(cors({
