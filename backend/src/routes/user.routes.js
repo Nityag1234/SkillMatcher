@@ -6,12 +6,12 @@ import { verifyJWT } from "../middleware/auth.middleware.js";
 const router = Router()
 
 router.route("/register").post(
-    upload.fields([
-        {
-            name: "profpic",
-            maxCount: 1
-        }
-    ]),
+    // upload.fields([
+    //     {
+    //         name: "profpic",
+    //         maxCount: 1
+    //     }
+    // ]),
     registerUser
 )
 
